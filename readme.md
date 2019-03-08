@@ -13,17 +13,33 @@ For more information of this approach to CSS, see:
 
 Oppenheimer leaves it to the user to define colors and breakpoints, etc. See below for the _recommended_ way of handling breakpoints.
 
-`color.scss` is included purely as an _example_ of the recommended way to apply colors. 
+`colors.scss` is included purely as an _example_ of the recommended way to apply colors. 
+
+## Escaping special characters
+
+Oppenheimer makes use of the `@` symbol and colons (`:`) in class names.
+
+These characters have a special meaning in CSS. These characters can be [escaped with a backslash](https://mathiasbynens.be/notes/css-escapes) to remove their special meaning.
+
+## State Variants
+
+To style elements on `hover`, `focus`, `active` or `focus-within`, use a `hover:`, `focus:`, `active:`, `focus-within:` prefix.
+
+e.g.
+
+```
+.hover\:bg-blue:hover {
+  background-color: var(--blue);
+}
+```
 
 ## Handling media queries
+
+Breakpoints should be defined as Sass variables (CSS custom properties cannot be used for this purpose).
 
 ### Breakpoint Suffixes
 
 HTML classes that have an impact only at specific screen sizes have a `@breakpoint-name` prefix.
-
-The following characters have a special meaning in CSS: !, ", #, \$, %, &, ', (, ), \*, +, ,, -, ., /, :, ;, <, =, >, ?, @, [, \, ], ^, `, {, |, }, and ~.
-
-These characters can be [escaped with a backslash](https://mathiasbynens.be/notes/css-escapes) to remove its special meaning.
 
 e.g.:
 
