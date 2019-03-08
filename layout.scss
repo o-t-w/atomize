@@ -1,0 +1,17 @@
+/* floats */
+
+.float-right { float: right; }
+.float-left { float: left; }
+
+.clearfix &::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* display */
+
+.block { display: block; }
+.inline-block { display: inline-block; }
+.inline { display: inline; }
+.hidden { display: none; }

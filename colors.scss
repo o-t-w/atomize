@@ -1,0 +1,14 @@
+:root {
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+}
+
+/* text colors */
+
+.black { color: var(--black); }
+.white { color: var(--white); } 
+
+/* background colors */
+
+.bg-black { background-color: var(--black); }
+.bg-white { background-color: var(--white); }
