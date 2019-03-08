@@ -1,5 +1,3 @@
-.display-none { display: none; }
-
 .transparent { opacity: 0; }
 
 .visually-hidden {
@@ -20,3 +18,7 @@
 .z-2 { z-index: 2; }
 .z-1 { z-index: 1; }
 .z-neg1 { z-index: -1; }
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}

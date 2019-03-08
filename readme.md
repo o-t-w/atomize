@@ -11,7 +11,7 @@ For more information of this approach to CSS, see:
 
 ## Staying out of peoples way
 
-Oppenheimer leaves it to the user to define colors and breakpoints, etc. See below for the _recommended_ way of handling breakpoints.
+Oppenheimer is style neutral. Unlike Tailwind or Tachyons and many other libraries, it purposefully does not come with colors and font-stacks pre-defined. It leaves it to the user to define colors and breakpoints, etc. 
 
 `colors.scss` is included purely as an _example_ of the recommended way to apply colors. 
 
@@ -63,7 +63,7 @@ Given the following markup, a `h1` would be 50 pixels on mobile and 75 pixels on
 
 ## Opinionated Styles
 
-`base.scss` is highly opinionated.
+`base.scss` is opinionated.
 
 It sets `box-sizing` to `border-box` for all elements rather than the browser default of `content-box`.
 

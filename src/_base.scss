@@ -38,6 +38,12 @@ textarea {
   line-height: inherit;
 }
 
+a {
+  text-underline-offset: 2px;
+  color: #034575;
+  text-decoration-color: rgb(130,140,255);
+}
+
 h1, .h1 {}
 h2, .h2 {}
 h3, .h3 {}
