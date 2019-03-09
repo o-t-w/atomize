@@ -1,4 +1,4 @@
-<img width="120" style="display: block; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 40px;" src="./oppenheimer.png">
+<p align="center"><img width="200" src="./oppenheimer.png"></p>
 
 # Oppenheimer is a library of atomic CSS classes.
 
