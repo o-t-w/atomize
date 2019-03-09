@@ -15,8 +15,17 @@
 .text-xs { font-size: 1.2rem; }
 .text-sm { font-size: 1.4rem; }
 .text-base { font-size: 1.6rem; }
-
 /* heading sizes are defined in base.scss */
+
+/* alignment */
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+
+/* case & underline */
 
 .uppercase { text-transform: uppercase; }
 .no-underline { text-decoration: none; }
+.underline	{ text-decoration: underline; }

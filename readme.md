@@ -1,5 +1,7 @@
 # Oppenheimer is a library of atomic CSS classes.
 
+https://img.shields.io/apm/l/:packageName.svg
+
 Utilities apply a single rule or a single piece of functionality. They are designed to be highly reusable.
 
 For more information of this approach to CSS, see:
@@ -8,6 +10,8 @@ For more information of this approach to CSS, see:
   ](https://css-tricks.com/growing-popularity-atomic-css/)
 - [CSS Utility Classes and "Separation of Concerns"
   ](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
+
+This project is heavily inspired by [Tailwind](https://tailwindcss.com/docs/what-is-tailwind/).
 
 ## Staying out of peoples way
 

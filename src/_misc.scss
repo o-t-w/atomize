@@ -19,6 +19,11 @@
 .z-1 { z-index: 1; }
 .z-neg1 { z-index: -1; }
 
-.scrollbar-thin {
-  scrollbar-width: thin;
+.scrollbar-thin { scrollbar-width: thin; }
+
+/* Lists */
+
+.list-reset	{
+    list-style: none;
+    padding: 0;
 }
