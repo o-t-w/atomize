@@ -1,4 +1,4 @@
-<p align="center"><img width="200" src="./atomize.png"></p>
+<p align="center"><img width="200" src="./atomize.jpg"></p>
 
 # Atomize is a library of atomic CSS classes.
 
