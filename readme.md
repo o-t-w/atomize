@@ -1,6 +1,6 @@
-<p align="center"><img width="200" src="./oppenheimer.png"></p>
+<p align="center"><img width="200" src="./atomize.png"></p>
 
-# Oppenheimer is a library of atomic CSS classes.
+# Atomize is a library of atomic CSS classes.
 
 **Low specificity. Predictable styles.**
 
@@ -18,13 +18,13 @@ This project is heavily inspired by [Tailwind](https://tailwindcss.com/docs/what
 
 ## Staying out of peoples way
 
-Oppenheimer is style neutral. Unlike Tailwind or Tachyons and many other libraries, it purposefully does not come with colors and font-stacks pre-defined. It leaves it to the user to define colors and breakpoints, etc. 
+Atomize is style neutral. Unlike Tailwind or Tachyons and many other libraries, it purposefully does not come with colors and font-stacks pre-defined. It leaves it to the user to define colors and breakpoints, etc. 
 
 `colors.scss` is included purely as an _example_ of the recommended way to apply colors. 
 
 ## Escaping special characters
 
-Oppenheimer makes use of the `@` symbol and colons (`:`) in class names.
+Atomize makes use of the `@` symbol and colons (`:`) in class names.
 
 These characters have a special meaning in CSS. These characters can be [escaped with a backslash](https://mathiasbynens.be/notes/css-escapes) to remove their special meaning.
 
