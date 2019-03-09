@@ -1,7 +1,5 @@
 # Oppenheimer is a library of atomic CSS classes.
 
-https://img.shields.io/apm/l/:packageName.svg
-
 Utilities apply a single rule or a single piece of functionality. They are designed to be highly reusable.
 
 For more information of this approach to CSS, see:
