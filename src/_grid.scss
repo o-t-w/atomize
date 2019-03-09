@@ -19,4 +19,6 @@
 .col-md { --column-width: 240px; }
 .col-lg { --column-width: 301px; }
 
-
+.span2 { grid-column: span 2; }
+.span4 { grid-column: span 4; }
+.span-all { grid-column: 1 / -1 }

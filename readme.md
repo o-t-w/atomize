@@ -1,6 +1,11 @@
+<img width="120" style="display: block; margin-left: auto; margin-right: auto; margin-top: 40px; margin-bottom: 40px;" src="./oppenheimer.png">
+
 # Oppenheimer is a library of atomic CSS classes.
 
+**Low specificity. Predictable styles.**
+
 Utilities apply a single rule or a single piece of functionality. They are designed to be highly reusable.
+
 
 For more information of this approach to CSS, see:
 
@@ -9,7 +14,7 @@ For more information of this approach to CSS, see:
 - [CSS Utility Classes and "Separation of Concerns"
   ](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/)
 
-This project is heavily inspired by [Tailwind](https://tailwindcss.com/docs/what-is-tailwind/).
+This project is heavily inspired by [Tailwind](https://tailwindcss.com/docs/what-is-tailwind/), [Basscss](http://basscss.com/) and [Tachyons](https://tachyons.io/).
 
 ## Staying out of peoples way
 
