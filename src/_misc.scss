@@ -13,17 +13,17 @@
 
 /* z-index */
 
-.z-4 { z-index: 4; }
-.z-3 { z-index: 3; }
-.z-2 { z-index: 2; }
-.z-1 { z-index: 1; }
-.z-neg1 { z-index: -1; }
+.z4 { z-index: 4; }
+.z3 { z-index: 3; }
+.z2 { z-index: 2; }
+.z1 { z-index: 1; }
+.zneg1 { z-index: -1; }
 
 .scrollbar-thin { scrollbar-width: thin; }
-
-/* Lists */
 
 .list-reset	{
     list-style: none;
     padding: 0;
 }
+
+.circle { border-radius: 50%; }

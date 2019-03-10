@@ -16,11 +16,21 @@ For more information of this approach to CSS, see:
 
 This project is heavily inspired by [Tailwind](https://tailwindcss.com/docs/what-is-tailwind/), [Basscss](http://basscss.com/) and [Tachyons](https://tachyons.io/).
 
-## Staying out of peoples way
+## Using Atomize
 
-Atomize is style neutral. Unlike Tailwind or Tachyons and many other libraries, it purposefully does not come with colors and font-stacks pre-defined. It leaves it to the user to define colors and breakpoints, etc. 
+Atomize purposefully keeps things simple. There is no CLI. There are not configuration files. There are no dependencies. There is no NPM install. Just copy the files you require into your project and include them in the usual way.
 
-`colors.scss` is included purely as an _example_ of the recommended way to apply colors. 
+### Staying out of peoples way
+
+Atomize aims to be style neutral. 
+
+- Some margin classes and grid classes are included as a reference implementation and commented out. Define your own depending on your design and use case.
+- `colors.scss` is included as an _example_ of the recommended way to handle colors. Define your own depending on your design.
+- Atomize does not include breakpoints. Define your own.
+
+## At-A-Glance Understandability
+
+Atomize avoids overly abbreviated class names and instead strives for classes that are human-readable and easily understandable.
 
 ## Escaping special characters
 
@@ -32,12 +42,16 @@ These characters have a special meaning in CSS. These characters can be [escaped
 
 To style elements on `hover`, `focus`, `active` or `focus-within`, use a `hover:`, `focus:`, `active:`, `focus-within:` prefix.
 
-e.g.
+e.g. given the following classes, the button will have a pink background, while on hover it will have a blue background.
 
 ```
-.hover\:bg-blue:hover {
-  background-color: var(--blue);
-}
+.bg-pink { background-color:pink; }
+
+.hover\:bg-blue:hover { background-color: var(--blue); }
+```
+
+```
+<button class="bg-pink hover:bg-blue">click</button>
 ```
 
 ## Handling media queries
@@ -74,7 +88,7 @@ Given the following markup, a `h1` would be 50 pixels on mobile and 75 pixels on
 
 It sets `box-sizing` to `border-box` for all elements rather than the browser default of `content-box`.
 
-It also makes working with REM units easier.
+`base.scss` also makes working with REM units easier.
 
 Pixel values are generally more intuitive than relative sizes (em's and rem's). However, rem values should be used to size text in order to cater for users who want to enlarge the size of text using there browser settings. Understanding the pixel value of these relative sizes is made obvious.
 
