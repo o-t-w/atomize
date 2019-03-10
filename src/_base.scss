@@ -35,18 +35,20 @@ select,
 textarea {
   font-family: inherit;
   font-size: inherit;
-  line-height: inherit;
 }
 
-a {
-  text-underline-offset: 2px;
-  color: #034575;
-  text-decoration-color: rgb(130,140,255);
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
+/*
 h1, .h1 {}
 h2, .h2 {}
 h3, .h3 {}
 h4, .h4 {}
 h5, .h5 {}
 h6, .h6 {}
+*/
