@@ -102,7 +102,7 @@ Pixel values are generally more intuitive than relative sizes (em's and rem's). 
 
 ## Font sizes
 
-It's important to avoid skipping heading levels when structuring your document, as it confuses screen readers. For example, after using an <h2> in your code, the next heading used should be either <h2> or <h3>. If you need a heading to look bigger or smaller to match a specific style, use CSS to override the default size.
+It's important to avoid skipping heading levels when structuring your document, as it confuses screen readers. For example, after using an `<h2>` in your code, the next heading used should be either `<h2>` or `<h3>`. If you need a heading to look bigger or smaller to match a specific style, use CSS to override the default size.
 
 Atomize applies styling directly to HTML heading elements, while also defining classes for overrides:
 
