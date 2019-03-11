@@ -1,7 +1,7 @@
 .float-right { float: right; }
 .float-left { float: left; }
 
-.clearfix &::after {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;

@@ -20,6 +20,12 @@ This project is heavily inspired by [Tailwind](https://tailwindcss.com/docs/what
 
 Atomize purposefully keeps things simple. There is no CLI. There are not configuration files. There are no dependencies. There is no NPM install. Just copy the files you require into your project and include them in the usual way.
 
+The compiled CSS is also available to use from the [UNPKG CDN](https://unpkg.com/).
+
+```
+<link rel="stylesheet" href="https://unpkg.com/@pixelpusher/atomize" />
+```
+
 ### Staying out of peoples way
 
 Atomize aims to be style neutral. 
@@ -93,3 +99,18 @@ It sets `box-sizing` to `border-box` for all elements rather than the browser de
 Pixel values are generally more intuitive than relative sizes (em's and rem's). However, rem values should be used to size text in order to cater for users who want to enlarge the size of text using there browser settings. Understanding the pixel value of these relative sizes is made obvious.
 
 `1rem` is computed as `10px`. `1.6rem` is computed as `16px`. `1.7rem` is computed as `17px`. `5rem` is computed as `50px`. etc.
+
+## Font sizes
+
+It's important to avoid skipping heading levels when structuring your document, as it confuses screen readers. For example, after using an <h2> in your code, the next heading used should be either <h2> or <h3>. If you need a heading to look bigger or smaller to match a specific style, use CSS to override the default size.
+
+Atomize applies styling directly to HTML heading elements, while also defining classes for overrides:
+
+```
+h1, .h1 {}
+h2, .h2 {}
+h3, .h3 {}
+h4, .h4 {}
+h5, .h5 {}
+h6, .h6 {}
+```
