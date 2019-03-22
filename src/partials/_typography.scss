@@ -1,31 +1,69 @@
 /* weights */
 
-.wght-hairline { font-weight: 100; }
-.wght-thin { font-weight: 200; }
-.wght-light { font-weight: 300; }
-.wght-normal { font-weight: 400; }
-.wght-medium { font-weight: 500; }
-.wght-semibold { font-weight: 600; }
-.wght-bold { font-weight: 700; }
-.wght-extrabold { font-weight: 800; }
-.wght-black { font-weight: 900; }
+.wght-100 {
+  font-weight: 100;
+}
+.wght-200 {
+  font-weight: 200;
+}
+.wght-300 {
+  font-weight: 300;
+}
+.wght-400 {
+  font-weight: 400;
+}
+.wght-500 {
+  font-weight: 500;
+}
+.wght-600 {
+  font-weight: 600;
+}
+.wght-700 {
+  font-weight: 700;
+}
+.wght-800 {
+  font-weight: 800;
+}
+.wght-900 {
+  font-weight: 900;
+}
 
 /* sizes */
 
-.text-xs { font-size: 1.2rem; }
-.text-sm { font-size: 1.4rem; }
-.text-base { font-size: 1.6rem; }
+.text-xs {
+  font-size: 1.2rem;
+}
+.text-sm {
+  font-size: 1.4rem;
+}
+.text-base {
+  font-size: 1.6rem;
+}
 /* heading sizes are defined in base.scss */
 
 /* alignment */
 
-.text-left { text-align: left; }
-.text-center { text-align: center; }
-.text-right { text-align: right; }
-.text-justify { text-align: justify; }
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
 
 /* case & underline */
 
-.uppercase { text-transform: uppercase; }
-.no-underline { text-decoration: none; }
-.underline	{ text-decoration: underline; }
+.uppercase {
+  text-transform: uppercase;
+}
+.no-underline {
+  text-decoration: none;
+}
+.underline {
+  text-decoration: underline;
+}
