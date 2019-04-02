@@ -6,7 +6,6 @@
 
 Utilities apply a single rule or a single piece of functionality. They are designed to be highly reusable.
 
-
 For more information of this approach to CSS, see:
 
 - [On the Growing Popularity of Atomic CSS
@@ -28,7 +27,7 @@ The compiled CSS is also available to use from the [UNPKG CDN](https://unpkg.com
 
 ### Staying out of peoples way
 
-Atomize aims to be style neutral. 
+Atomize aims to be style neutral.
 
 - Some margin classes and grid classes are included as a reference implementation and commented out. Define your own depending on your design and use case.
 - `colors.scss` is included as an _example_ of the recommended way to handle colors. Define your own depending on your design.
@@ -40,7 +39,7 @@ Atomize avoids overly abbreviated class names and instead strives for classes th
 
 ## Escaping special characters
 
-Atomize makes use of the `@` symbol and colons (`:`) in class names.
+Atomize makes use of the `@` symbol, percentage sign, and colons (`:`) in class names.
 
 These characters have a special meaning in CSS. These characters can be [escaped with a backslash](https://mathiasbynens.be/notes/css-escapes) to remove their special meaning.
 
@@ -114,3 +113,7 @@ h4, .h4 {}
 h5, .h5 {}
 h6, .h6 {}
 ```
+
+## Styling shadow DOM
+
+Classes defined outside of shadow DOM don't work inside of shadow DOM. Atomize does, however, define some CSS custom properties, which _can_ be used. All colors and font sizes are defined as CSS custom properties.

@@ -1,11 +1,27 @@
 /* width */
 
-.w-50 { width: 50%; }
-.w-full { width: 100%; }
-.w-screen { width: 100vw; }
+.w-50\% {
+  width: 50%;
+}
+.w-100\% {
+  width: 100%;
+}
+.w-100vw {
+  width: 100vw;
+}
+.w-max-content {
+  width: max-content;
+}
+.w-min-content {
+  width: min-content;
+}
 
-.max-w-full { max-width: 100%; }
+.w-max-100\% {
+  max-width: 100%;
+}
 
 /* height */
 
-.min-h-screen { min-height: 100vh; }
+.h-min-100vh {
+  min-height: 100vh;
+}

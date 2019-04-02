@@ -30,14 +30,20 @@
 
 /* sizes */
 
+:root {
+  --text-xs: 1.2rem;
+  --text-sm: 1.4rem;
+  --text-base: 1.6rem;
+}
+
 .text-xs {
-  font-size: 1.2rem;
+  font-size: var(--text-xs);
 }
 .text-sm {
-  font-size: 1.4rem;
+  font-size: var(--text-sm);
 }
 .text-base {
-  font-size: 1.6rem;
+  font-size: var(--text-base);
 }
 /* heading sizes are defined in base.scss */
 
