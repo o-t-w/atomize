@@ -25,13 +25,17 @@ The compiled CSS is also available to use from the [UNPKG CDN](https://unpkg.com
 <link rel="stylesheet" href="https://unpkg.com/@pixelpusher/atomize" />
 ```
 
-### Staying out of peoples way
+## Staying out of peoples way
 
 Atomize aims to be style neutral.
 
 - Some margin classes and grid classes are included as a reference implementation and commented out. Define your own depending on your design and use case.
 - `colors.scss` is included as an _example_ of the recommended way to handle colors. Define your own depending on your design.
 - Atomize does not include breakpoints. Define your own.
+
+## Grid classes
+
+The amount of custom layout designs that could be implemented with CSS grid are almost infinite. You can use CSS grid for everything from a small widget to the entire layout of a page. Abstracting such a large amount of options into utility classes is not feasible. Define your own classes for using CSS grid.
 
 ## At-A-Glance Understandability
 
