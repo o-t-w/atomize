@@ -1,6 +1,6 @@
 {
   "name": "@pixelpusher/atomize",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A library of CSS utility classes",
   "main": "dist/compile.css",
   "repository": {

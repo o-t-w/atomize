@@ -17,7 +17,10 @@ This project is heavily inspired by [Tailwind](https://tailwindcss.com/docs/what
 
 ## Using Atomize
 
-Atomize purposefully keeps things simple. There is no CLI. There are not configuration files. There are no dependencies. There is no NPM install. Just copy the files you require into your project and include them in the usual way.
+Atomize purposefully keeps things simple. There is no CLI. There are not configuration files.
+
+You can download the files from [GitHub](https://github.com/o-t-w/atomize).
+Atomize is also available on [NPM](https://www.npmjs.com/package/@pixelpusher/atomize).
 
 The compiled CSS is also available to use from the [UNPKG CDN](https://unpkg.com/).
 
