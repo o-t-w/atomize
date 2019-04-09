@@ -94,6 +94,10 @@ Given the following markup, a `h1` would be 50 pixels on mobile and 75 pixels on
 <h1 class="font-xl @sm:font-l">Lorem Ipsum Heading</h1>
 ```
 
+## Normalize
+
+Atomize does not include Normalize. The vast majority of Normalize is for dealing with older browsers - particularly old versions of Internet Explorer. Atomize takes a modern approach to browser support. It does not bloat CSS with unneeded styles for obsolete long-dead browsers.
+
 ## Opinionated Styles
 
 `base.scss` is opinionated.
