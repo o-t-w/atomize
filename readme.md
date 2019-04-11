@@ -128,3 +128,16 @@ h6, .h6 {}
 ## Styling shadow DOM
 
 Classes defined outside of shadow DOM don't work inside of shadow DOM. Atomize does, however, define some CSS custom properties, which _can_ be used. All colors and font sizes are defined as CSS custom properties.
+
+## Browser support
+
+The vast majority of classes included here work in _all browsers_. However, this library is primarily aimed towards modern everygreen browsers. New classes will be added as new CSS features emerge.
+
+CSS features that do not work in Internet Explorer include:
+
+- CSS custom properties
+- CSS grid
+- `display: contents`
+- `min-content` and `max-content`
+- `object-fit`
+- `position: sticky`
